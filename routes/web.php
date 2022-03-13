@@ -16,5 +16,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::match(['get', 'post'], '/', [ChatController::class, 'chat'])->name('chat');
-Route::get('/getMessages', [ChatController::class, 'getMessages'])->name('getMessages');
 Route::resource('messages', MessageController::class);
