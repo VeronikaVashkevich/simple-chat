@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 40px auto ;
+}
+
+.message {
+    margin-top: 40px;
+}
+
+.name {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.mes-text {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.form {
+    margin-top: 40px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    display: block;
+    margin-top: 15px;
+}
+
+.form-control {
+    width: 40%;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    display: block;
+}
+
+.btn-submit {
+    font-family: 'Nunito', sans-serif;
+    background: #a0aec0;
+    display: block;
+    margin-top: 15px;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.btn-submit:hover {
+    background: #6b7280;
+}
