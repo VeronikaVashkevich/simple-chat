@@ -12,6 +12,11 @@
     <title>Chat</title>
 </head>
 <body>
+<header>
+    <div class="title">
+        <h1>Simple Chat App</h1>
+    </div>
+</header>
 <div class="container">
     <div class="chat">
         <div class="messages">

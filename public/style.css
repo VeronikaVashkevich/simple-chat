@@ -4,13 +4,36 @@
     font-family: 'Nunito', sans-serif;
 }
 
+body {
+    background: #E0F2F1;
+}
+
+header {
+    text-align: center;
+    background: #006650;
+    width: 100%;
+    padding: 30px 0;
+}
+
+h1 {
+    color: #ffffff;
+}
+
 .container {
     width: 70%;
     margin: 40px auto ;
 }
 
+.messages {
+    background: #B2DFDB;
+    padding: 20px;
+}
+
 .message {
-    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #4DB6AC;
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px 15px 20px 30px;
 }
 
 .name {
@@ -29,11 +52,16 @@
 
 textarea {
     width: 100%;
+    max-width: 100%;
     border-radius: 5px;
+    border: 1px solid #4DB6AC;
+    background: #B2DFDB;
+    padding: 5px;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     display: block;
     margin-top: 15px;
+    height: 100px;
 }
 
 .form-control {
@@ -42,18 +70,24 @@ textarea {
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     display: block;
+    border: 1px solid #4DB6AC;
+    background: #B2DFDB;
+    padding: 5px;
 }
 
 .btn-submit {
     font-family: 'Nunito', sans-serif;
-    background: #a0aec0;
+    background: #1DE9B6;
     display: block;
     margin-top: 15px;
     padding: 5px 20px;
     font-size: 18px;
     border-radius: 3px;
+    color: #ffffff;
+    border: 1px solid #00695C;
+    cursor: pointer;
 }
 
 .btn-submit:hover {
-    background: #6b7280;
+    background: #18c398;
 }
